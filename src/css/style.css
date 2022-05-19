@@ -1,0 +1,87 @@
+*{
+    font-family: 'Koulen', cursive;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: url(../imagens/pexels-min-an-1482803.jpg);
+    background-size: cover;
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.titulo {
+    
+    color: rgb(233, 247, 36);
+}
+
+.paragrafo{
+    font-size: 15px;
+    color: rgb(233, 247, 36);
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+    
+}
+
+input {
+    font-size: 30px;
+    width: 100%;
+    display: block;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: none;
+}
+
+.info1, .info2, .info3{
+    padding: 5px;
+    font-size: 30px;
+    color: rgb(63, 238, 48);
+}
+
+.adultos {
+    background-color: rgb(107, 105, 105);
+    color: rgb(8, 8, 8);
+}
+
+.criancas {
+    background-color: rgb(128, 94, 0);
+    color: rgb(8, 8, 8);
+}
+
+.duracao {
+    background-color: rgb(60, 11, 105);
+    color: rgb(8, 8, 8);
+}
+
+button {
+    padding: 5px;
+    background-color: rgb(1, 70, 18);
+    color: rgb(13, 13, 14);
+    cursor: pointer;
+}
+
+.result-info{
+    margin-top: 10px;
+}
+
+.result-block{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem;
+}
+
+.result-block img {
+    width: 3rem;
+    height: 3rem;
+    margin: 0;
+    margin-right: 0.5rem;
+  }
+  
